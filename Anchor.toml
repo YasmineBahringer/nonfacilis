@@ -1,0 +1,16 @@
+[features]
+seeds = false
+skip-lint = false
+
+[programs.mainnet]
+firethree = "Fire3T9ABT33UYoVJZwWUnbPR3rgoVw98y82UgHZ8Bm"
+
+[registry]
+url = "https://api.mainnet-beta.solana.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "/Users/dannpl/.config/solana/id.json"
+
+[scripts]
+test = "yarn anchor-tests"
